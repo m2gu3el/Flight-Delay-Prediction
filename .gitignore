@@ -1,0 +1,27 @@
+# Claude
+/.claude
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Data (large files — download via kagglehub)
+data/raw/
+data/processed/
+
+# Model artefacts
+models/
+
+# Generated plots
+reports/figures/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
